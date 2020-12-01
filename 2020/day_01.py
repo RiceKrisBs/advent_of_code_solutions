@@ -22,7 +22,7 @@ def part_two_solution(report_values):
 
 
 if __name__ == '__main__':
-    expense_report = '.\\day_01_input.txt'
+    expense_report = '.\\inputs\\day_01_input.txt'
     report_values = parse_expense_report(expense_report)
     print(f"Part one solution: {part_one_solution(report_values)}")
     print(f"Part two solution: {part_two_solution(report_values)}")
